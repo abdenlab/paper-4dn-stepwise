@@ -1,0 +1,33 @@
+[workspace]
+name = "rna"
+version = "0.1.0"
+description = "RNA-seq for the 4dn2hepdiff project"
+channels = ["conda-forge", "bioconda"]
+platforms = ["linux-64"]
+
+# --- Quantification + QC CLI tools (bioconda) ---
+[dependencies]
+salmon = "1.10.*"   # pin: salmon 2.0.1 (piscem rewrite) Gibbs/bootstrap ~2h/sample
+fastp = "*"
+fastqc = "*"
+rseqc = "*"
+multiqc = "*"
+samtools = "*"
+pyfaidx = "*"
+
+# --- R / Bioconductor stats stack ---
+r-base = ">=4.4"
+bioconductor-tximeta = "*"
+bioconductor-tximport = "*"
+bioconductor-deseq2 = "*"
+bioconductor-apeglm = "*"
+bioconductor-edger = "*"
+bioconductor-limma = "*"
+bioconductor-ruvseq = "*"
+bioconductor-sva = "*"
+bioconductor-genomicfeatures = "*"
+bioconductor-genomeinfodbdata = "*"
+bioconductor-txdbmaker = "*"   # makeTxDbFromGFF in recent Bioc
+r-arrow = "*"          # Parquet export from R
+"r-data.table" = "*"
+r-matrixstats = "*"

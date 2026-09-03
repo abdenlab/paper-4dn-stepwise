@@ -1,0 +1,23 @@
+[workspace]
+authors = ["Nezar Abdennur <nabdennur@gmail.com>"]
+channels = ["conda-forge", "bioconda"]
+name = "tfbs"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.11,<3.12"
+polars = ">=1.25"
+pyarrow = "*"
+matplotlib = "*"
+seaborn = "*"
+ipykernel = "*"
+meme = ">=5.5"
+bedtools = ">=2.31"
+duckdb = "*"
+
+[pypi-dependencies]
+oxbow = "*"
+giql = "*"

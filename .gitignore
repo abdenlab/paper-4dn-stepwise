@@ -1,0 +1,5 @@
+# Per-module .gitignore files handle their own results/, figs/ and data/ inputs.
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/

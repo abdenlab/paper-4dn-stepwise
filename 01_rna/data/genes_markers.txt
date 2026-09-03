@@ -1,0 +1,32 @@
+# === Pluripotency (ESC) ===  
+DNMT3B      # ESC   DNA methyltransferase
+LIN28A      # ESC   RNA-binding
+DPPA4       # ESC
+
+# === Definitive endoderm (DE) ===  
+CXCR4       # DE    receptor
+CER1        # DE    secreted antagonist
+LEFTY2      # DE    secreted
+
+# === Hepatic secretory === 
+ALB
+TTR
+APOB
+APOA1
+FGA
+SERPINA1
+AGT
+C3
+HAMP
+
+# === Hepatic metabolism ===
+PCK1
+TAT
+GPT
+GSTA1
+SLC10A1
+CYP1A1
+CYP3A5
+SULT1A1
+HMOX1
+CYP3A7

@@ -1,0 +1,51 @@
+hallmark	category	display_name	description	n_founders	n_genes
+HALLMARK_APICAL_JUNCTION	cellular component	Apical Junction	apical junction complex consisting of adherens and tight junctions	37	200
+HALLMARK_APICAL_SURFACE	cellular component	Apical Surface	membrane proteins in the apical domain	12	44
+HALLMARK_PEROXISOME	cellular component	Peroxisome	peroxisomes	28	107
+HALLMARK_ADIPOGENESIS	development	Adipogenesis	adipocyte development	36	200
+HALLMARK_ANGIOGENESIS	development	Angiogenesis	blood vessel formation	14	36
+HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION	development	Epithelial-Mesenchymal Transition	epithelial mesenchymal transition	107	200
+HALLMARK_MYOGENESIS	development	Myogenesis	muscle differentiation	64	200
+HALLMARK_SPERMATOGENESIS	development	Spermatogenesis	sperm development and male fertility	24	135
+HALLMARK_PANCREAS_BETA_CELLS	development	Pancreas Beta Cells	genes specific to pancreatic beta cells	24	40
+HALLMARK_DNA_REPAIR	DNA damage	DNA Repair	DNA repair	44	150
+HALLMARK_UV_RESPONSE_DN	DNA damage	UV Response Down	UV response: downregulated genes	17	144
+HALLMARK_UV_RESPONSE_UP	DNA damage	UV Response Up	UV response: upregulated genes	16	158
+HALLMARK_ALLOGRAFT_REJECTION	immune	Allograft Rejection	allograft rejection	190	200
+HALLMARK_COAGULATION	immune	Coagulation	blood coagulation cascade	71	138
+HALLMARK_COMPLEMENT	immune	Complement	complement cascade	71	200
+HALLMARK_INTERFERON_ALPHA_RESPONSE	immune	Interferon Alpha Response	interferon alpha response	82	97
+HALLMARK_INTERFERON_GAMMA_RESPONSE	immune	Interferon Gamma Response	interferon gamma response	82	200
+HALLMARK_IL6_JAK_STAT3_SIGNALING	immune	IL-6/JAK/STAT3 Signaling	IL6 STAT3 signaling during acute phase response	24	87
+HALLMARK_INFLAMMATORY_RESPONSE	immune	Inflammatory Response	inflammation	120	200
+HALLMARK_BILE_ACID_METABOLISM	metabolic	Bile Acid Metabolism	biosynthesis of bile acids	28	112
+HALLMARK_CHOLESTEROL_HOMEOSTASIS	metabolic	Cholesterol Homeostasis	cholesterol homeostasis	28	74
+HALLMARK_FATTY_ACID_METABOLISM	metabolic	Fatty Acid Metabolism	fatty acid metabolism	53	158
+HALLMARK_GLYCOLYSIS	metabolic	Glycolysis	glycolysis and gluconeogenesis	87	200
+HALLMARK_HEME_METABOLISM	metabolic	Heme Metabolism	heme metabolism and erythroid lineage	36	200
+HALLMARK_OXIDATIVE_PHOSPHORYLATION	metabolic	Oxidative Phosphorylation	oxidative phosphorylation and citric acid cycle	93	200
+HALLMARK_XENOBIOTIC_METABOLISM	metabolic	Xenobiotic Metabolism	metabolism of xenobiotics	124	200
+HALLMARK_APOPTOSIS	pathway	Apoptosis	programmed cell death; caspase pathway	80	161
+HALLMARK_HYPOXIA	pathway	Hypoxia	response to hypoxia; HIF1A targets	87	200
+HALLMARK_PROTEIN_SECRETION	pathway	Protein Secretion	protein secretion	74	96
+HALLMARK_UNFOLDED_PROTEIN_RESPONSE	pathway	Unfolded Protein Response	unfolded protein response; ER stress	22	113
+HALLMARK_REACTIVE_OXYGEN_SPECIES_PATHWAY	pathway	Reactive Oxygen Species Pathway	reactive oxygen species pathway	13	49
+HALLMARK_E2F_TARGETS	proliferation	E2F Targets	cell cycle progression: E2F targets	420	200
+HALLMARK_G2M_CHECKPOINT	proliferation	G2-M Checkpoint	cell cycle progression: G2/M checkpoint	420	200
+HALLMARK_MYC_TARGETS_V1	proliferation	MYC Targets V1	MYC targets, variant 1	404	200
+HALLMARK_MYC_TARGETS_V2	proliferation	MYC Targets V2	MYC targets, variant 2	6	58
+HALLMARK_P53_PATHWAY	proliferation	p53 Pathway	p53 pathway	85	200
+HALLMARK_MITOTIC_SPINDLE	proliferation	Mitotic Spindle	cell cycle progression: mitotic spindle assembly	108	200
+HALLMARK_ANDROGEN_RESPONSE	signaling	Androgen Response	androgen response	8	117
+HALLMARK_ESTROGEN_RESPONSE_EARLY	signaling	Estrogen Response Early	early estrogen response	61	200
+HALLMARK_ESTROGEN_RESPONSE_LATE	signaling	Estrogen Response Late	late estrogen response	61	200
+HALLMARK_IL2_STAT5_SIGNALING	signaling	IL-2/STAT5 Signaling	IL2 STAT5 signaling	13	200
+HALLMARK_KRAS_SIGNALING_UP	signaling	KRAS Signaling Up	KRAS signaling, upregulated genes	14	200
+HALLMARK_KRAS_SIGNALING_DN	signaling	KRAS Signaling Down	KRAS signaling, downregulated genes	16	200
+HALLMARK_MTORC1_SIGNALING	signaling	mTORC1 Signaling	mTORC1 signaling	487	200
+HALLMARK_NOTCH_SIGNALING	signaling	Notch Signaling	Notch signaling	49	32
+HALLMARK_PI3K_AKT_MTOR_SIGNALING	signaling	PI3K/AKT/mTOR Signaling	PI3K signaling via AKT to mTORC1	591	105
+HALLMARK_HEDGEHOG_SIGNALING	signaling	Hedgehog Signaling	Hedgehog signaling	79	36
+HALLMARK_TGF_BETA_SIGNALING	signaling	TGF-β Signaling	TGF beta signaling	29	54
+HALLMARK_TNFA_SIGNALING_VIA_NFKB	signaling	TNF-α Signaling via NF-kB	TNFA signaling via NF-kB	132	200
+HALLMARK_WNT_BETA_CATENIN_SIGNALING	signaling	Wnt-β-catenin Signaling	canonical β catenin pathway	49	42

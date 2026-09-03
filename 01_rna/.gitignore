@@ -1,0 +1,20 @@
+results/
+figs/
+
+data/*
+!data/genes_markers.txt
+!data/genes_tfs.txt
+!data/hallmark_metadata.tsv
+!data/kegg_brite_map.tsv
+!data/stage_colors.json
+
+metadata/samples.tsv
+metadata/quant_manifest.tsv
+metadata/tx2gene.tsv
+metadata/gene_annotation.parquet
+
+# pixi
+# ignore the env, but keep config.toml -- it carries run-post-link-scripts=insecure,
+# without which is needed for bioconductor-genomeinfodbdata
+.pixi/*
+!.pixi/config.toml

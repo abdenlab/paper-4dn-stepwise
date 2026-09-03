@@ -1,0 +1,178 @@
+# Motif families relevant to key TFs in this system.
+# Each family groups TFs by motif PWM similarity (sequence-recognition class),
+# not by biological pathway. Built and validated against HOCOMOCO H14CORE on
+# 2026-06-03.
+#
+# HGNC -> HOCOMOCO short-name aliases (HOCOMOCO uses UniProt entry names):
+#   POU5F1   -> PO5F1
+#   ONECUT1  -> HNF6
+#   ONECUT2  -> ONEC2
+#   NR3C1    -> GCR
+#   NR3C2    -> MCR
+#   AR       -> ANDR
+#   THRA     -> THA
+#   THRB     -> THB
+#   NR2F2    -> COT2
+
+# =============================================================================
+# Pluripotency: OCT4 + SOX2 cooperative composite (also bound by NANOG in vivo)
+# =============================================================================
+PLURIPOTENCY_POU_SOX
+  POU5F1::SOX2 composite  # JASPAR MA0142.1 — HOCOMOCO has no composite PWMs
+
+# =============================================================================
+# Bicoid / PRD-class homeodomain: bind TAATCC / TAATCY consensus
+# =============================================================================
+PRDLIKE_BICOID
+  OTX1
+  OTX2
+  GSC
+  PITX1
+  PITX2
+  MIXL1
+  ALX3
+  PRRX2
+  HESX1
+
+# =============================================================================
+# T-box: bind AGGTGTGAA family elements
+# =============================================================================
+T_BOX
+  EOMES
+  TBX1
+  TBX3
+  TBX4
+  TBX18
+  TBX19
+
+# =============================================================================
+# SOX / HMG box: bind ACAATG / CATTGT (HMG core).
+# =============================================================================
+SOX_HMG
+  SOX2
+  SOX3
+  SOX4
+  SOX6
+  SOX8
+  SOX9
+  SOX10
+  SOX11
+  SOX12
+  SOX13
+  SOX15
+  SOX17
+  SOX18
+  SOX21
+  SRY
+
+# =============================================================================
+# GATA zinc finger: bind WGATAR / CTTATC consensus
+# =============================================================================
+GATA
+  GATA3
+  GATA4
+  GATA5
+  GATA6
+
+# =============================================================================
+# Forkhead / winged-helix: bind TGTTTAC / GTAAACA family.
+# =============================================================================
+FORKHEAD
+  FOXA1
+  FOXA2
+  FOXA3
+  FOXC1
+  FOXD3
+  FOXH1
+  FOXI1
+  FOXJ2
+  FOXJ3
+  FOXK1
+  FOXK2
+  FOXM1
+  FOXO1
+  FOXO3
+  FOXO4
+  FOXP1
+  FOXP2
+  FOXP3
+
+# =============================================================================
+# HNF4 nuclear receptors: bind DR1 with HNF4-specific extended consensus
+# (HNF4G dropped — TPM 50× lower than HNF4A and was winning as a PWM artifact)
+# =============================================================================
+HNF4
+  HNF4A
+
+# =============================================================================
+# HNF1 homeodomain: bind the GTTAATGATTAAC inverted-repeat consensus
+# =============================================================================
+HNF1
+  HNF1A
+  HNF1B
+
+# =============================================================================
+# CUT-homeodomain (Onecut/HNF6 family): bind TATTGAT
+# =============================================================================
+ONECUT
+  ONECUT1                 # H14CORE: HNF6
+  ONECUT2                 # H14CORE: ONEC2
+
+# =============================================================================
+# bZIP CCAAT-enhancer-binding (CEBP family + bZIP cousins binding related sites)
+# =============================================================================
+CEBP_PAR_BZIP
+  CEBPA
+  CEBPB
+  CEBPD
+  CEBPG
+  DBP
+  HLF
+  NFIL3
+  TEF
+
+# =============================================================================
+# NR DR1/DR2-binding receptors (excluding HNF4 which is split out).
+# Includes PPARs, RXRs, NR2F/COUP-TF, RORs and Rev-Erbs.
+# =============================================================================
+NR_DR1_DR2_NON_HNF4
+  PPARA
+  PPARD
+  PPARG
+  RXRA
+  RXRB
+  RXRG
+  NR2F2                   # H14CORE: COT2
+  NR2F6
+  RORA
+  NR1D1                   # Rev-Erb-α
+  NR1D2                   # Rev-Erb-β
+
+# =============================================================================
+# NR DR3-5 / inverted-repeat-binding receptors: LXRs, FXR, CAR, RARs, THRs, VDR
+# =============================================================================
+NR_DR3_DR5
+  NR1H2                   # LXR-β
+  NR1H3                   # LXR-α
+  NR1H4                   # FXR — kept despite low TPM; the empty signal is itself informative
+  NR1I3                   # CAR
+  RARA
+  RARB
+  RARG
+  THRA                    # H14CORE: THA
+  THRB                    # H14CORE: THB
+  VDR
+
+# =============================================================================
+# Steroid receptors / GRE family: bind GRE-like inverted half-site palindromes
+# =============================================================================
+NR3C_STEROID_GRE
+  NR3C1                   # H14CORE: GCR
+  NR3C2                   # H14CORE: MCR
+  AR                      # H14CORE: ANDR
+
+# =============================================================================
+# Prospero homeodomain
+# =============================================================================
+PROX
+  PROX1

@@ -1,0 +1,11 @@
+results/
+figs/
+
+data/*
+!data/hg38.chromarms.50000.bed
+!data/hg38.chromarms.bed
+!data/hg38.bins.gc.50000.pq
+!data/stage_colors.json
+
+__pycache__/
+.ipynb_checkpoints/

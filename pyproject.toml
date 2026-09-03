@@ -1,0 +1,33 @@
+[project]
+name = "4dn2hepdiff"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "polars>=1.25.2",
+    "pyarrow>=19.0.0",
+    "numpy>=1.26.4",
+    "scipy>=1.14.1",
+    "scikit-learn>=1.5.2",
+    "matplotlib>=3.9.2",
+    "seaborn>=0.13.2",
+    "pydeseq2>=0.4.12",
+    "bioframe>=0.7.2",
+    "statsmodels>=0.14.6",
+    "scikit-fuzzy>=0.5.0",
+    "marimo>=0.22.0",
+    "upsetplot>=0.9.0",
+    "oxbow>=0.7.0",
+    "gseapy>=1.1.13",
+    "quak>=0.3.5",
+    "xlsxwriter>=3.2.9",
+    "cooler>=0.10.4",
+    "cooltools>=0.7.1",
+    "multiprocess>=0.70.19",
+    "lxml>=6.1.1",
+    "pybigtools>=0.3.0",
+    "evoc>=0.3.1",
+    "datashader>=0.19.1",
+    "ipykernel>=6.29.0",
+    "nbconvert>=7.16.0",
+    "matplotlib-venn>=1.1.0",
+]

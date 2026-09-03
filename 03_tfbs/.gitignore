@@ -1,0 +1,12 @@
+results/
+figs/
+
+data/*
+!data/motif_families.txt
+!data/pwms/
+data/pwms/*
+!data/pwms/H14CORE_meme_format.meme
+
+# pixi — keep config.toml, which carries run-post-link-scripts = insecure
+.pixi/*
+!.pixi/config.toml
